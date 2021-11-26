@@ -164,7 +164,7 @@ Foreach ($profileKey in $profiles)
                     # $account_name = $($user.UserPrincipalName) we don’t need account name for this script
                     $job_title = $($user.Title)
                     # $location = $($user.office) we don’t need location for now
-                    $comp = “Company Name” # The company will always be Silver Gold Bull
+                    $comp = “Company Name” # The company name
                     $email = $($user.WindowsEmailAddress)
                     $phone = $($user.Phone)
                     # $logo = “C:/Path-to-photo” if they ever wanted to add logos you would have to update the HTML
